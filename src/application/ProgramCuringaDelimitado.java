@@ -1,6 +1,7 @@
 package application;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import entities.Circle;
@@ -10,7 +11,13 @@ import entities.Shape;
 public class ProgramCuringaDelimitado {
 
 	public static void main(String[] args) {
-
+		LinkedList<Integer> ls = new LinkedList<>();
+		ls.add(5);
+		ls.add(1);
+		ls.add(10);
+		
+		System.out.println(ls);
+		
 		List<Shape> myShapes = new ArrayList<>();
 		myShapes.add(new Rectangle(3.0, 2.0));
 		myShapes.add(new Circle(2.0));
